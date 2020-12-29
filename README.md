@@ -20,3 +20,11 @@ The following guides illustrate how to use some features concretely:
 * [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/)
 * [Building a RESTful Web Service with Spring Boot Actuator](https://spring.io/guides/gs/actuator-service/)
 
+### Useful Maven Commands 
+The following include commands that are useful for debugging and running the app 
+
+If dependencies are failing to load in intellij run:
+```mvn package```
+
+Run the application locally
+```mvn spring-boot:run```
